@@ -20,13 +20,9 @@
   </head>
   <body>
     <style>
-      .carousel .carousel-item {
-        height: 300px;
+      .w-75 {
+        height: 35vh;
       }
-      .carousel-item img {
-        max-height: 250px;
-      }
-
       .carusel-pic {
         background: url('pics/back2.jpg');
       }
@@ -89,6 +85,9 @@
         color: rgb(211, 208, 208);
 
         background: url('./pics/animated3.jpg');
+      }
+      .form-check{
+        text-align: center;
       }
     </style>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -200,49 +199,49 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    class="d-block w-50 m-auto"
+                    class="d-block w-75 m-auto"
                     src="./pics/images.jpeg"
                     alt="First slide"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    class="d-block w-50 m-auto"
+                    class="d-block w-75 m-auto"
                     src="./pics/index.jpeg"
                     alt="Second slide"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    class="d-block w-50 m-auto"
+                    class="d-block w-75 m-auto"
                     src="./pics/1533222425-vampire-diaries-season-3.jpg"
                     alt="Second slide"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    class="d-block w-50 m-auto"
+                    class="d-block w-75 m-auto"
                     src="./pics/dawson.jpeg"
                     alt="Second slide"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    class="d-block w-50 m-auto"
+                    class="d-block w-75 m-auto"
                     src="./pics/smallville.jpg"
                     alt="Second slide"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    class="d-block w-50 m-auto"
+                    class="d-block w-75 m-auto"
                     src="./pics/52889_ppl.jpg"
                     alt="Second slide"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    class="d-block w-50 m-auto"
+                    class="d-block w-75 m-auto"
                     src="./pics/Supernatural.jpg"
                     alt="Third slide"
                   />
@@ -377,7 +376,7 @@
                 id="inlineRadio1"
                 value="option1"
               />
-              <label class="form-check-label" for="inlineRadio1">1</label>
+              <label class="form-check-label" for="inlineRadio1">Nő</label>
             </div>
             <div class="form-check form-check-inline">
               <input
@@ -387,7 +386,7 @@
                 id="inlineRadio2"
                 value="option2"
               />
-              <label class="form-check-label" for="inlineRadio2">2</label>
+              <label class="form-check-label" for="inlineRadio2">Férfi</label>
             </div>
             <div class="form-check form-check-inline">
               <input
@@ -396,24 +395,34 @@
                 name="inlineRadioOptions"
                 id="inlineRadio3"
                 value="option3"
-                disabled
+        
               />
-              <label class="form-check-label" for="inlineRadio3"
-                >3 (disabled)</label
+              <label class="form-check-label" for="inlineRadio3"></label text-dark>
+                NEM Bináris</label
               >
             </div>
+   <p></p>
             <div class="form-group">
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="gridCheck"
-                />
-
-                <label class="form-check-label" for="gridCheck">
-                  Hírlevelet?
-                </label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Hírlevelet?</label>
               </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Levél szemet  et?</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Támadó vírust?</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Spagetti kódot?</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Egyéb megjegysés</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Register</button>
           </form>
@@ -601,6 +610,25 @@
               </div>
             </div>
           </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./pics/fmguy.jpeg"
+              class="card-img-top p-2 border border-1 rounded"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">SE3EP5</h5>
+              <p class="card-text">
+                Sam and Dean travel to Maple Springs, New York to investigate a
+                deadly attack against three brothers. Though they believe a
+                werewolf to be the culprit, the lone survivor claims the
+                attacker was a normal man...
+              </p>
+              <div class="text-center">
+                <a href="#" class="btn btn-primary">Check it out</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -636,7 +664,6 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-4">
-                  <p class="try">twitch</p>
                   <a href="">
                     <img
                       class="logo"
@@ -647,7 +674,6 @@
                   </a>
                 </div>
                 <div class="col-md-4">
-                  <p class="try">insta</p>
                   <a href="">
                     <img
                       class="logo"
@@ -658,7 +684,6 @@
                   </a>
                 </div>
                 <div class="col-md-4">
-                  <p class="try">face</p>
                   <a href="">
                     <img
                       class="logo"
